@@ -1,6 +1,8 @@
 @import "helpers/variaveis.scss";
 @import "helpers/mixins.scss";
 
+@import "base/normalize";
+
 @import "layout/geral.scss";
 @import "layout/header.scss";
 @import "layout/destaque.scss";
