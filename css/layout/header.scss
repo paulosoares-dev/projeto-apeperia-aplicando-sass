@@ -5,13 +5,32 @@ header {
     height: 90px;
     width: 100%;
     position: absolute;
-  }
+
+    .container {
+        position: relative;
+    }
+
+    @media (max-width: 980px) {
+        height: auto;
+
+        .container {
+            position: static;
+        }
+
+        h1 {
+            max-width: 50%;
+            margin: 0 auto;
+
+            img {
+                max-width: 100%;
+                margin: .5em auto;
+                display: block;
+            }
+        } // fim h1
+    } // fim media query
+} // fim header
   
-  header .container {
-    position: relative;
-  }
-  
-  .menu-principal {
+.menu-principal {
     position: absolute;
     right: 0;
     top: -.5em;
