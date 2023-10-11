@@ -1,11 +1,11 @@
-@import "variaveis.scss";
-@import "mixins.scss";
+@import "helpers/variaveis.scss";
+@import "helpers/mixins.scss";
 
-@import "geral.scss";
-@import "header.scss";
-@import "destaque.scss";
-@import "sobre.scss";
-@import "planos.scss";
-@import "blog.scss";
-@import "contato.scss";
-@import "footer.scss";
+@import "layout/geral.scss";
+@import "layout/header.scss";
+@import "layout/destaque.scss";
+@import "layout/sobre.scss";
+@import "layout/planos.scss";
+@import "layout/blog.scss";
+@import "layout/contato.scss";
+@import "layout/footer.scss";
