@@ -10,7 +10,7 @@ header {
         position: relative;
     }
 
-    @media (max-width: $ponto-de-quebra) {
+    @media #{$mq-mobile} {
         height: auto;
 
         .container {
