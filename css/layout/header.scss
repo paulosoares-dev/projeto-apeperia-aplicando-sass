@@ -10,7 +10,7 @@ header {
         position: relative;
     }
 
-    @media (max-width: 980px) {
+    @media (max-width: $ponto-de-quebra) {
         height: auto;
 
         .container {
